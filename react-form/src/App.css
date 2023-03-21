@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container{
+  background-color: rgb(23, 23, 23);
+  color: white;
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px grey, 2px 2px 7px grey;
+}
+
+.head{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 34px;
+  font-weight: 900;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+form{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  padding: 15px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  font-size: 22px;
+}
+
+.box{
+  margin: 3px ;
+}
+
+.box input{
+  height: 26px;
+  font-size: 18px;
+  margin-left: 25px;
+}
+
+.box #course{
+  margin-right: 10px;
+}
+
+.box #password{
+  margin-right: 40px;
+}
+
+form button{
+  background-color: red;
+  color: white;
+  width: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 10px;
+  padding: 4px;
+  font-size: 26px;
+  border: none;
+  border-radius: 10px;
+}
+
+form button:hover{
+  background-color: white;
+  color: red;
+  border:2px solid red;
+}
+
+.showDataStyle{
+  background-color: rgb(15, 16, 16);
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 4px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.showDataStyle p{
+  margin-left: 15px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
